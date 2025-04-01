@@ -6,10 +6,7 @@
 	  
 	  Extended description, if appropriate.
   
-  Author(s):
-  Last modified by: Dr. Eric M. Schwartz
-  Last modified on: 28 Feb 2024
-------------------------------------------------------------------------------*/
+-------------------------------------*/
 
 /********************************DEPENDENCIES**********************************/
 
@@ -58,7 +55,7 @@ void LSM_write(uint8_t reg_addr, uint8_t data){
 /*------------------------------------------------------------------------------
  LSM_read -- 
   
-  Description: – Returns a single byte of
+  Description: â€“ Returns a single byte of
   data from an LSM register associated with the address
   `reg_addr`.
     
@@ -95,7 +92,7 @@ uint8_t LSM_read(uint8_t reg_addr){
 /*------------------------------------------------------------------------------
  LSM_init -- 
   
-  Description: – Initialize the IMU to do the following:
+  Description: â€“ Initialize the IMU to do the following:
   1. perform software reset via CTRL3_C register 
   2. configure CTRL1_XL, CTRL9_XL, and INT1_CTRL
   3. configure an I/O port interrupt to trigger upon the accelerometer completing a measurement
