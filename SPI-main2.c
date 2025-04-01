@@ -1,7 +1,3 @@
-//Lab 6, Section 3
-//Name: Mallory Silva
-//Class #: 11653
-//PI Name: Mark
 //Description: Communicating with the IMU
 
 
