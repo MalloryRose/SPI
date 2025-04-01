@@ -11,9 +11,6 @@
 	  The LSM6DSL can output accelerometer and gyroscope data. Data from both
     of these sensors is represented in a 16-bit signed format. 
   
-  Author(s): Wesley Piard & Leslye Castillo & Dr. Eric M. Schwartz
-  Last modified by: Dr. Eric M. Schwartz
-  Last modified on: 28 Feb 2024
 ------------------------------------------------------------------------------*/
 
 
